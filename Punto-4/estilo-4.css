@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+    margin: 50px 300px;
+}
+
+.verde {
+    color: green;
+}
+
+.rojo {
+    color: red;
+}
+
+.lineas {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.grande {
+    font-size: 60px;
+}
+
+.azul {
+    color: blue;
+}
+
+.btn {
+    margin-top: 30px;
+    text-decoration: none;
+    border: 2px solid gray;
+    background-color: rgb(194, 194, 194);
+    border-radius: 15px;
+    padding: 10px 40px;
+    transition: background-color 0.8s ease;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(245, 245, 245, 0.912);
+}

@@ -1,0 +1,39 @@
+table {
+    background-color: yellow;
+}
+
+table, tr, td{
+    border: 1px dashed black;
+    border-collapse: collapse;
+}
+
+table tr .rojo {
+    border: 1px dashed red;
+    border-collapse: collapse;
+}
+
+table th {
+    color: red;
+}
+
+div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+    margin-top: 30px;
+    text-decoration: none;
+    border: 2px solid gray;
+    background-color: rgb(194, 194, 194);
+    border-radius: 15px;
+    padding: 10px 40px;
+    transition: background-color 0.8s ease;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(245, 245, 245, 0.912);
+}
